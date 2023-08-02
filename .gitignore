@@ -1,0 +1,40 @@
+# Ignore node_modules directory (it contains all the dependencies and can be generated locally)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn error logs
+yarn-error.log*
+
+# Ignore .env files (containing sensitive information like API keys, passwords, etc.)
+.env
+
+# Ignore built files or output directories
+/dist/
+/build/
+/out/
+/.next/
+
+# Ignore other development-specific files or directories
+*.cache/
+*.tmp/
+*.temp/
+*.pid
+*.vscode/
+*.DS_Store
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
+
+# Ignore IDE or editor-specific files
+/.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+.vscode/
+*.code-workspace
