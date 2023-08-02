@@ -4,6 +4,8 @@ Create a simple Node.js server that listens on port 3000 and responds with "Hell
 
 Server is created using express framework. (file app.js)
 
+To start server please run command : "npm run start"
+
 Route: http://localhost:3000/
 
 ## Second task: Data Manipulation
